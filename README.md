@@ -1,9 +1,13 @@
 # FOCUS
 
-Help yourself when accessibility testing
+Help yourself when surging accessibility
 
 ## About
 
-What do you do when you are called upon to test a website for accessibility and there isn't even a focus indicator present to indicate what a user, being you, is tabbing through on a page? You implement FOCUS, that what!
+What do you do when you use, or in that rare case are called upon to test a website for accessibility, and there isn't even a focus indicator present to indicate what you are tabbing through on a page? You implement FOCUS, that what!
 
-Since keyboard accessibility tends to be the baseline to which accessibility is measured, we *need* focus styles. Thankfully all is not lost when you come across a web developers work who has nulled the default focus style of a browser and has forgotten to add their own. That's why browser vendors built a feature called "user defined style sheets".
+FOCUS quite simply is a "user defined style sheet". A "user defined style sheet" allows a user to declare a set of "styles" that your web browser will obey above all other styles declared by any web sites creator. Should you require a uniform experience, and I cannot think of a better use case for such a feature than that of focus styles, than you should declare those yourself.
+
+## Usage
+
+This is where things can get a little tricky. Much trickier than when I last attempted to do this. Walking you through the steps necessary to install FOCUS in your browser isn't nearly as simple as it should be. I'll require some time.
