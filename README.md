@@ -1,6 +1,6 @@
 # FOCUS
 
-Help yourself when surging accessibility
+Indication when surfing with your keyboard
 
 ## About
 
