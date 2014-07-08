@@ -1,11 +1,17 @@
-/* 1. I used the universal selector (*) prior to the focus pseudo-element, as opposed to a generic "a" selector, to insure the styles I declared below are applied to anything that receives focus.
+/*
+ * 1. I used the universal selector (*) prior to the focus pseudo-element, as opposed to a generic "a" selector, to insure the styles I declared below are applied to anything that receives focus.
  * 2. Use of !important's ensure conflicts are overridden by my styles.
- * 3. These declarations are likely better applied to a simple "a" selector rather than the :focus state. */
+ * 3. To stop the outline from appearing when activating a link in Firefox and IE
+ */
+
 *:focus { /* 1 */
-    outline: 3px solid #f00 !important; /* 2 */
-    position: relative !important; /* This and the next line help make sure the outline is on top of everything. 3 */
-    z-index: 10000 !important; /* 3 */
+	outline: 3px solid #f00 !important; /* 2 */
+	text-decoration: none !important;
+}
+*:active,
+*:hover {
+	outline: 0 !important; /* 3. */
 }
 a:focus img {
-    display: inline-block !important; /* to ensure the outline wraps an entire linked image. 3 */
+	display: inline-block !important; /* to ensure the outline wraps an entire linked image. */
 }
