@@ -1,12 +1,12 @@
 # FOCUS
 
-Indication when surfing with your keyboard
+Style while surfing the web with your keyboard.
 
 ## About
 
-What do you do when you use, or in that rare case are called upon to assess a website for accessibility, and there isn't even a focus indicator present to indicate what you are tabbing through on a page? You implement FOCUS, that what!
+What do you do when you want/ need to use a website with a keyboard and there aren't styles to indicate what you are tabbing to on a page? You implement FOCUS, that what! This is, of course, my way of saying this solution is what I rely on when performing accessibility assessments. In fact, it's nothing more.
 
-FOCUS quite simply is a "user defined style sheet" that allows a user to declare a set of "styles" that your web browser will obey above all other styles declared by any web sites creator. Should you require a uniform experience, and I cannot think of a better use case for such a feature than that of focus styles, than you should declare those yourself.
+On with it! FOCUS, quite simply, is a "user defined style sheet" that allows a user to use a set of "styles" that your web browser will obey above all other styles declared by any web sites creator. Styles that give the :focus pseudo-element a dramatic appearance to give a user definite indication of what is actually focused on a webpage.
 
 ## How to...
 
