@@ -6,7 +6,7 @@
 *:focus, /* 1 */
 a:focus,
 a:active {
-	outline: 3px solid #f00 !important; /* 2 */
+	outline: 3px solid #3cf !important; /* 2 */
 	text-decoration: underline !important;
 }
 a:focus img {
