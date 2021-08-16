@@ -4,9 +4,13 @@ Style while surfing the web with your keyboard.
 
 ## About
 
-What do you do when you want/ need to use a website with a keyboard and there aren't styles to indicate what you are tabbing to on a page? You implement FOCUS, that what! This is, of course, my way of saying this solution is what I rely on when performing accessibility assessments. In fact, it's nothing more.
+What do you do when you want/ need to use a website with a keyboard and there aren't styles to indicate what you are tabbing to on a page? You implement FOCUS, that what! Which is, of course, a way of saying this solution is what I rely on when performing accessibility assessments. In fact, it's nothing more.
 
-On with it! FOCUS, quite simply, is a "user defined style sheet" that allows a user to use a set of "styles" that your web browser will obey above all other styles declared by any web sites creator. Styles that give the :focus pseudo-element a dramatic appearance to give a user definite indication of what is actually focused on a webpage.
+On with it! FOCUS, quite simply, is a "user defined style sheet" that allows a user to use a set of "styles" that your web browser will obey above all other styles declared by any web sites author(s). Styles that give the :focus pseudo-element an obvious indication of what is actually being focused on a webpage.
+
+### :focus-visible and backwards compatibility
+
+[Read this](https://www.tpgi.com/focus-visible-and-backwards-compatibility/) (I'm still testing this *be aware*)
 
 ## How to...
 

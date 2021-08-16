@@ -1,14 +1,21 @@
 /*
  * 1. I used the universal selector (*) and a generic "a" selector prior to the focus pseudo-element to insure the styles I declared below are applied to anything that receives focus, and in a consistant manner.
- * 2. Use of !important's ensure conflicts are overridden by FOCUS' styles.
+ * 2. Use of !important's make sure conflicts are overridden by FOCUS' styles.
+ * 3. https://www.tpgi.com/focus-visible-and-backwards-compatibility/
  */
 
 *:focus, /* 1 */
-a:focus,
-a:active {
+a:focus {
 	outline: 3px solid #3cf !important; /* 2 */
 	text-decoration: underline !important;
 }
-a:focus img {
-	display: inline-block !important; /* to ensure the outline wraps an entire linked image. */
+*:focus:not(:focus-visible), /* 3 */
+a:focus:not(:focus-visible) {
+	outline: 0 !important; /* 2 */
+	text-decoration: none !important;
+}
+*:focus-visible,
+a:focus-visible {
+	outline: 3px solid #000 !important; /* 2 */
+	text-decoration: underline !important;
 }
